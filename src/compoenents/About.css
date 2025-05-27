@@ -1,0 +1,115 @@
+:root {
+    --navy :#06162c;
+    --orange: #ff5722;
+    --light: #f4f4f4;
+  }
+  
+  .about-container {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--navy);
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  .about-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, var(--navy), #132c57);
+    color: var(--orange);
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+  }
+  
+  .about-hero p {
+    color: var(--light);
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: var(--navy);
+    padding: 60px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-image, .about-text {
+    flex: 1 1 45%;
+    margin: 10px;
+  }
+  
+  .about-image img {
+    width: 100%;
+
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  }
+  
+  .about-text h2 {
+    color: var(--orange);
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .about-values {
+    background-color: var(--orange);
+    color: var(--navy);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .about-values h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .value-card {
+    background: white;
+    color: var(--navy);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: translateY(-6px);
+  }
+  
+  .value-icon {
+    color: var(--orange);
+    margin-bottom: 12px;
+  }
+  
+  .value-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .value-card p {
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .about-footer {
+    background-color: #06162c;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 2px solid var(--orange);
+  }
+ .about-container p,h3,h1,h2{
+    font-weight: 800 !important;
+  }

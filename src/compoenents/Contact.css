@@ -1,0 +1,111 @@
+:root {
+  --navy :#06092e;
+  --orange: #ff5722;
+  --light: #f4f4f4;
+  }
+  
+  .contact-container {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--navy);
+    color: white;
+  }
+  
+  .contact-hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, var(--navy), #132c57);
+    color: var(--orange);
+  }
+  
+  .contact-hero h1 {
+    font-size: 3rem;
+  }
+  
+  .contact-hero p {
+    color: var(--light);
+    margin-top: 10px;
+  }
+  
+  .contact-form-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    background-color: white;
+    color: var(--navy);
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .form-container,
+  .support-info {
+    flex: 1 1 400px;
+    max-width: 500px;
+  }
+  
+  .form-container h2,
+  .support-info h2 {
+    color: var(--orange);
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: var(--orange);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #e67300;
+  }
+  
+  .support-info ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .support-info li {
+    margin-bottom: 10px;
+  }
+  
+  .support-info a {
+    color: var(--navy);
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: var(--orange);
+    text-decoration: none;
+  }
+  
+  .contact-footer {
+    background-color: #06162c;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 2px solid var(--orange);
+  }
+  .contact-container p,h3,h1,h2{
+    font-weight: 800 !important;
+  }

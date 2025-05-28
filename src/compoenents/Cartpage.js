@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { CartContext } from "./CartContext";
+import './Cart.css'
 
 function Cart() {
   const { cartItems, removeFromCart, confirmItem } = useContext(CartContext);
@@ -14,7 +15,7 @@ function Cart() {
         cartItems.map((item) => (
           <div
             key={item.id}
-            className="card mb-3 d-flex flex-row align-items-center p-3"
+            className="cart-container mb-3 d-flex flex-row align-items-center p-3"
           >
             <img
               src={item.image}
@@ -26,7 +27,7 @@ function Cart() {
             />
             <div className="flex-grow-1">
               <h5>{item.title}</h5>
-              <p className="text-muted">${item.price}</p>
+              <p className="text-muted-1">${item.price}</p>
             </div>
 
             <div className="d-flex gap-2">
